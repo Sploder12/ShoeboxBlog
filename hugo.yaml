@@ -1,0 +1,13 @@
+baseURL: https://blog.sploder.org/
+locale: en-us
+theme: ["PaperMod"]
+enableRobotsTXT: true
+
+title: "Trevor's Shoebox"
+params:
+  contact:
+    email: trevorschupbach@gmail.com
+
+caches:
+  images:
+    dir: :cacheDir/images
