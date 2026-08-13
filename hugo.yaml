@@ -3,10 +3,61 @@ locale: en-us
 theme: ["PaperMod"]
 enableRobotsTXT: true
 
+services:
+  disqus:
+    shortname: trevor_shoe
+
 title: "Trevor's Shoebox"
+copyright: "© [Trevor Schupbach](https://github.com/sploder12)"
 params:
-  contact:
-    email: trevorschupbach@gmail.com
+
+  profileMode:
+    enabled: true
+    imageUrl: "https://avatars.githubusercontent.com/u/49347001"
+    imageTitle: "Profile Picture"
+    buttons:
+      - name: About
+        url: about
+      - name: Posts
+        url: posts/
+
+
+  socialIcons:
+    - name: github
+      title: GitHub Profile
+      url: "https://github.com/sploder12/"
+    - name: LinkedIn
+      title: LinkedIn Profile
+      url: "https://www.linkedin.com/in/trevor-schupbach/"
+    - name: KoFi
+      title: Support me on Ko-Fi
+      url: "https://ko-fi.com/trevorshoebox"
+
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  
+  comments: true
+
+  editPost:
+    URL: "https://github.com/Sploder12/ShoeboxBlog/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+menu:
+  main:
+    - name: About
+      url: about
+    - name: Blog
+      url: posts/
+    - name: Search
+      url: search
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 caches:
   images:
