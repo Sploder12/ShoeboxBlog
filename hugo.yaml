@@ -5,7 +5,7 @@ enableRobotsTXT: true
 
 services:
   disqus:
-    shortname: trevor_shoe
+    shortname: trevors-shoebox
 
 title: "Trevor's Shoebox"
 copyright: "© [Trevor Schupbach](https://github.com/sploder12)"
