@@ -10,11 +10,13 @@ services:
 title: "Trevor's Shoebox"
 copyright: "© [Trevor Schupbach](https://github.com/sploder12)"
 params:
+  favicon: "./favicon.ico"
 
   profileMode:
     enabled: true
-    imageUrl: "https://avatars.githubusercontent.com/u/49347001"
+    imageUrl: "./shoebox.png"
     imageTitle: "Profile Picture"
+    subtitle: What will we find today?
     buttons:
       - name: About
         url: about
@@ -52,6 +54,11 @@ menu:
       url: posts/
     - name: Search
       url: search
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 outputs:
   home:

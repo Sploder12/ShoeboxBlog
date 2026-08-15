@@ -1,0 +1,13 @@
+@media screen and (min-width: 1280px) {
+     .toc {
+        position: fixed;
+        left: 20px;
+        top: 100px;
+        width: calc((100vw - var(--main-width)) / 2 - 20px * 2);
+        max-height: calc(100vh - 200px);
+        overflow-y: auto;
+        
+        padding: 10px;
+        font-size: 20px;
+    }
+}
