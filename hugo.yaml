@@ -40,6 +40,7 @@ params:
   ShowCodeCopyButtons: true
   
   comments: true
+  math: true
 
   editPost:
     URL: "https://github.com/Sploder12/ShoeboxBlog/content"
